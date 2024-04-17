@@ -1,8 +1,6 @@
 
 
 body{
-     --background-color : white;
-     --text-color : black;
      font-family: Nunito , sans-serif;
      background-color: var(--background-color);
      color: var(--text-color);
@@ -61,6 +59,7 @@ p {
     border: none;
     background-color: var(--elements-color);
     color: inherit;
+    
 }
 
 .form-select {
@@ -68,6 +67,11 @@ p {
     background-color: var(--elements-color);
     color: var(--text-color);
     
+}
+
+.dark-btn:hover{
+        background-color:hsl(209 , 23% , 22%);
+        color: white;
 }
 
 .dark_mode{
@@ -80,6 +84,23 @@ p {
       .all-card-container{
         justify-content: center;
       }
+
+      .search-filter-container{
+          flex-direction: column-reverse;
+          align-items: center;
+          gap: 1rem;
+          
+      }
+
+      .search-input{
+        width: 18rem;
+      }
+
+      .filter-div{
+        width: 22rem;
+      }
+
+     
 }
 
 
